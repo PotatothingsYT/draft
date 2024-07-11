@@ -1,0 +1,53 @@
+@media screen and (min-width: 601px) {
+    h1, a, p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    h1, a, p {
+        font-size: 50px;
+    }
+}
+
+
+body{
+    text-align: center;
+}
+
+.NavButton{
+font-family: "Poppins", "sans-serif";
+display: inline;
+padding: 10px;
+color: white;
+font-weight: bolder;
+border-radius: 2px;
+background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 1);
+font-size: 30px;
+}
+
+#navContainer{
+    background-image: linear-gradient(to right, blue, rgb(108, 255, 108));
+    border-radius: 25px;
+    height: 50px;
+}
+
+#abtus{
+    border-radius: 10px;
+    font-family: "Poppins", "sans-serif";
+    padding: 10px;
+    color: white;
+    font-weight: 250;
+    background-color: black;
+}
+
+#ReturnAbt {
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 20px;
+}
+
+#bardiv{
+    height: 50px;
+}
